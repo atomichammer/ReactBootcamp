@@ -1,0 +1,25 @@
+.gallery-section {
+    text-align: center;
+
+    &__gallery {
+        display: flex;
+        justify-content: space-around;
+        //box-sizing: content-box;
+        //width: 1090px;
+        flex-wrap: wrap;
+        column-gap: 34px;
+        row-gap: 44px;
+        justify-content: space-evenly;
+    }
+    
+    &_image {
+        border-radius: 12px;
+        margin-top: 44px;
+        margin-bottom: 44px;
+    }
+
+    &__button {
+        border: 1px solid #fff;
+        padding: 10px 30px;
+    }
+}

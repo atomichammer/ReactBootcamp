@@ -1,6 +1,9 @@
 .section {
+  padding-top: 162px;
+
   &__title {
     margin-bottom: 26px;
+    text-align: center;
 
     font-size: 52px;
     font-weight: 400;
@@ -8,6 +11,9 @@
   }
 
   &__subtitle {
+    text-align: center;
+    margin-bottom: 80px;
+
     font-size: 20px;
     line-height: 30px;
   }
